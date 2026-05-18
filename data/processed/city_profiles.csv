@@ -1,0 +1,17 @@
+city,temperature,humidity,rainfall,data_centers,mw_capacity,hyperscaler
+Mumbai,27,70,3000,40,200,1
+Pune,24,70,2200,15,80,0
+Bengaluru,24,69,950,40,200,1
+Hyderabad,26,63,1000,40,200,1
+Chennai,28,76,1400,40,200,1
+Delhi,26,60,800,40,200,1
+Phoenix,33,32,250,70,350,1
+Dallas,20,67,900,70,350,1
+Austin,22,65,850,40,200,1
+Seattle,12,80,950,40,200,1
+Singapore,28,85,4300,50,250,1
+Dublin,11,88,1100,20,100,0
+Amsterdam,11,85,900,20,100,0
+London,12,80,700,25,120,1
+Tokyo,17,67,1500,50,250,1
+Dubai,30,45,100,45,300,1

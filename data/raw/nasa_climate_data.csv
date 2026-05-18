@@ -1,0 +1,51 @@
+city,year,avg_temperature,avg_humidity,precipitation
+"Mumbai, India",2020,26.76,71.67,3019.25
+"Mumbai, India",2021,26.88,71.39,3210.25
+"Mumbai, India",2022,26.48,70.92,2904.38
+"Mumbai, India",2023,27.0,66.91,2660.87
+"Mumbai, India",2024,27.2,69.07,3132.19
+"Pune, India",2020,23.72,73.5,2290.42
+"Pune, India",2021,23.78,73.29,2424.4
+"Pune, India",2022,23.5,71.71,2223.42
+"Pune, India",2023,23.82,68.73,1940.79
+"Pune, India",2024,24.24,69.7,2614.44
+"Bengaluru, India",2020,23.9,70.9,1064.86
+"Bengaluru, India",2021,23.27,73.6,1173.87
+"Bengaluru, India",2022,23.14,74.45,1530.7
+"Bengaluru, India",2023,23.98,68.25,754.3
+"Bengaluru, India",2024,24.71,68.07,938.76
+"Hyderabad, India",2020,25.67,67.98,1225.42
+"Hyderabad, India",2021,25.4,68.34,1056.01
+"Hyderabad, India",2022,25.61,66.21,965.99
+"Hyderabad, India",2023,25.98,62.16,916.17
+"Hyderabad, India",2024,26.44,65.22,926.85
+"Chennai, India",2020,27.9,74.88,1560.54
+"Chennai, India",2021,27.61,76.3,1841.35
+"Chennai, India",2022,27.65,75.95,1364.28
+"Chennai, India",2023,27.99,74.78,1525.88
+"Chennai, India",2024,28.36,74.67,1623.87
+"Phoenix, USA",2020,23.23,30.22,157.11
+"Phoenix, USA",2021,22.86,32.24,357.95
+"Phoenix, USA",2022,22.46,34.08,278.53
+"Phoenix, USA",2023,22.64,33.0,242.81
+"Phoenix, USA",2024,23.37,31.36,216.77
+"Dallas, USA",2020,18.77,71.01,1031.73
+"Dallas, USA",2021,18.88,69.2,801.44
+"Dallas, USA",2022,19.61,59.6,773.75
+"Dallas, USA",2023,20.24,64.0,735.01
+"Dallas, USA",2024,20.09,67.76,1052.7
+Singapore,2020,27.28,84.69,2457.52
+Singapore,2021,27.02,85.09,4281.8
+Singapore,2022,27.14,85.16,4054.15
+Singapore,2023,27.5,85.58,5657.72
+Singapore,2024,27.84,86.02,5164.6
+"Dublin, Ireland",2020,10.15,87.79,1184.13
+"Dublin, Ireland",2021,10.45,87.65,1066.2
+"Dublin, Ireland",2022,10.8,87.05,917.58
+"Dublin, Ireland",2023,10.98,88.33,1300.3
+"Dublin, Ireland",2024,10.63,88.43,1134.52
+"Amsterdam, Netherlands",2020,11.37,82.99,877.82
+"Amsterdam, Netherlands",2021,10.38,85.62,875.04
+"Amsterdam, Netherlands",2022,11.54,82.83,736.67
+"Amsterdam, Netherlands",2023,11.68,84.16,1048.49
+"Amsterdam, Netherlands",2024,11.65,86.45,983.84

@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01e5ee3aa9a6287ca4bcff05dd6abdb3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01e5ee3aa9a6287ca4bcff05dd6abdb3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01e5ee3aa9a6287ca4bcff05dd6abdb3 = L.map(
+                "map_01e5ee3aa9a6287ca4bcff05dd6abdb3",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f149069a117f706a493fc43ebf14ecd8 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f149069a117f706a493fc43ebf14ecd8.addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+            var circle_marker_137dc980453e4ae4de9da258191c70e4 = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_41906a4348e0133af6b0bc04c4b18d8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a423c21302c0b25a2442006f37f4b477 = $(`<div id="html_a423c21302c0b25a2442006f37f4b477" style="width: 100.0%; height: 100.0%;">     <b>Mumbai, India</b><br>     Risk: High<br>     Sustainability:     29.9<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_41906a4348e0133af6b0bc04c4b18d8e.setContent(html_a423c21302c0b25a2442006f37f4b477);
+            
+        
+
+        circle_marker_137dc980453e4ae4de9da258191c70e4.bindPopup(popup_41906a4348e0133af6b0bc04c4b18d8e)
+        ;
+
+        
+    
+    
+            var circle_marker_6ba9e5f1f5a1b9c65f5004b513b4cb74 = L.circleMarker(
+                [18.5213738, 73.8545071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_6f85209be512f458582d6c7ea1cad775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6201fbb91511fdbcb926610ed4243105 = $(`<div id="html_6201fbb91511fdbcb926610ed4243105" style="width: 100.0%; height: 100.0%;">     <b>Pune, India</b><br>     Risk: High<br>     Sustainability:     54.7<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_6f85209be512f458582d6c7ea1cad775.setContent(html_6201fbb91511fdbcb926610ed4243105);
+            
+        
+
+        circle_marker_6ba9e5f1f5a1b9c65f5004b513b4cb74.bindPopup(popup_6f85209be512f458582d6c7ea1cad775)
+        ;
+
+        
+    
+    
+            var circle_marker_5d2f4d12ec18329f716d42b1157d7536 = L.circleMarker(
+                [12.9767936, 77.590082],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_d7280e200a6f33787bd399e624129868 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed888783b2c0f91dd607f2d1ef28fc89 = $(`<div id="html_ed888783b2c0f91dd607f2d1ef28fc89" style="width: 100.0%; height: 100.0%;">     <b>Bengaluru, India</b><br>     Risk: Medium<br>     Sustainability:     33.5<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_d7280e200a6f33787bd399e624129868.setContent(html_ed888783b2c0f91dd607f2d1ef28fc89);
+            
+        
+
+        circle_marker_5d2f4d12ec18329f716d42b1157d7536.bindPopup(popup_d7280e200a6f33787bd399e624129868)
+        ;
+
+        
+    
+    
+            var circle_marker_b70c1d8262081c53f2c38c6a063d97ea = L.circleMarker(
+                [17.360589, 78.4740613],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_39784eab96a73bb74e6d40175d5bd51e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fce03041709290489d387d3ca2f4bcf5 = $(`<div id="html_fce03041709290489d387d3ca2f4bcf5" style="width: 100.0%; height: 100.0%;">     <b>Hyderabad, India</b><br>     Risk: Medium<br>     Sustainability:     31.3<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_39784eab96a73bb74e6d40175d5bd51e.setContent(html_fce03041709290489d387d3ca2f4bcf5);
+            
+        
+
+        circle_marker_b70c1d8262081c53f2c38c6a063d97ea.bindPopup(popup_39784eab96a73bb74e6d40175d5bd51e)
+        ;
+
+        
+    
+    
+            var circle_marker_e6af91f9572298d2b5c911cce10e9470 = L.circleMarker(
+                [13.0836939, 80.270186],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_eea61c239d19bf79402115c94f6cd544 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8ee8b74d2644614702d53a19b4d842c = $(`<div id="html_e8ee8b74d2644614702d53a19b4d842c" style="width: 100.0%; height: 100.0%;">     <b>Chennai, India</b><br>     Risk: Medium<br>     Sustainability:     28.5<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_eea61c239d19bf79402115c94f6cd544.setContent(html_e8ee8b74d2644614702d53a19b4d842c);
+            
+        
+
+        circle_marker_e6af91f9572298d2b5c911cce10e9470.bindPopup(popup_eea61c239d19bf79402115c94f6cd544)
+        ;
+
+        
+    
+    
+            var circle_marker_1ba50257ea90e145340178bdf41917b3 = L.circleMarker(
+                [28.6138954, 77.2090057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_bf4be8d38c42d83b0a1805ad2303a5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e85c749558ffb1da4eee3ec8ea4ade4 = $(`<div id="html_3e85c749558ffb1da4eee3ec8ea4ade4" style="width: 100.0%; height: 100.0%;">     <b>Delhi, India</b><br>     Risk: High<br>     Sustainability:     22.3<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_bf4be8d38c42d83b0a1805ad2303a5dd.setContent(html_3e85c749558ffb1da4eee3ec8ea4ade4);
+            
+        
+
+        circle_marker_1ba50257ea90e145340178bdf41917b3.bindPopup(popup_bf4be8d38c42d83b0a1805ad2303a5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_10cec5d46d200e5b5d4f10d678aace4e = L.circleMarker(
+                [28.5706333, 77.3272147],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_dde4a8c12f179031aad5a42c5f2e83eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_884c6a74996c984728f72fbabf19ca01 = $(`<div id="html_884c6a74996c984728f72fbabf19ca01" style="width: 100.0%; height: 100.0%;">     <b>Noida, India</b><br>     Risk: High<br>     Sustainability:     23.2<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_dde4a8c12f179031aad5a42c5f2e83eb.setContent(html_884c6a74996c984728f72fbabf19ca01);
+            
+        
+
+        circle_marker_10cec5d46d200e5b5d4f10d678aace4e.bindPopup(popup_dde4a8c12f179031aad5a42c5f2e83eb)
+        ;
+
+        
+    
+    
+            var circle_marker_04df3c53ce406a9af2eb452ca82ac795 = L.circleMarker(
+                [23.0215374, 72.5800568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_0aba5a2500215f8e8a1b989110052417 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e89f4f438703c69bce839c9d156cd1d8 = $(`<div id="html_e89f4f438703c69bce839c9d156cd1d8" style="width: 100.0%; height: 100.0%;">     <b>Ahmedabad, India</b><br>     Risk: High<br>     Sustainability:     40.0<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_0aba5a2500215f8e8a1b989110052417.setContent(html_e89f4f438703c69bce839c9d156cd1d8);
+            
+        
+
+        circle_marker_04df3c53ce406a9af2eb452ca82ac795.bindPopup(popup_0aba5a2500215f8e8a1b989110052417)
+        ;
+
+        
+    
+    
+            var circle_marker_df0d188b7aec671acc1a269b659427d2 = L.circleMarker(
+                [22.5726459, 88.3638953],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_c95e4f5db35611a742c60910660f2b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_894549dac8fc724799c1976435ffdc82 = $(`<div id="html_894549dac8fc724799c1976435ffdc82" style="width: 100.0%; height: 100.0%;">     <b>Kolkata, India</b><br>     Risk: Medium<br>     Sustainability:     56.8<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_c95e4f5db35611a742c60910660f2b1d.setContent(html_894549dac8fc724799c1976435ffdc82);
+            
+        
+
+        circle_marker_df0d188b7aec671acc1a269b659427d2.bindPopup(popup_c95e4f5db35611a742c60910660f2b1d)
+        ;
+
+        
+    
+    
+            var circle_marker_0781843df8729fc838ba4b9edc279e61 = L.circleMarker(
+                [9.9679032, 76.2444378],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_fab7d147675c80ce3f900098efcfc48e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3941f9239ce41f81faea88371806bc8 = $(`<div id="html_d3941f9239ce41f81faea88371806bc8" style="width: 100.0%; height: 100.0%;">     <b>Kochi, India</b><br>     Risk: Medium<br>     Sustainability:     53.3<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_fab7d147675c80ce3f900098efcfc48e.setContent(html_d3941f9239ce41f81faea88371806bc8);
+            
+        
+
+        circle_marker_0781843df8729fc838ba4b9edc279e61.bindPopup(popup_fab7d147675c80ce3f900098efcfc48e)
+        ;
+
+        
+    
+    
+            var circle_marker_0794f07d110547fe9a2e6a5cfa3ce1f6 = L.circleMarker(
+                [17.6935526, 83.2921297],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_8659f73b5a58dc98b38b5475c1ca1030 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d26d3266e74883cc2f8ba86bf3106744 = $(`<div id="html_d26d3266e74883cc2f8ba86bf3106744" style="width: 100.0%; height: 100.0%;">     <b>Visakhapatnam, India</b><br>     Risk: Medium<br>     Sustainability:     47.3<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_8659f73b5a58dc98b38b5475c1ca1030.setContent(html_d26d3266e74883cc2f8ba86bf3106744);
+            
+        
+
+        circle_marker_0794f07d110547fe9a2e6a5cfa3ce1f6.bindPopup(popup_8659f73b5a58dc98b38b5475c1ca1030)
+        ;
+
+        
+    
+    
+            var circle_marker_00543cb3a866d12e4217bb40e009a19c = L.circleMarker(
+                [26.9154576, 75.8189817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_9b4d9554c55de683921259ec0d5196d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0396c19a40808767abcc15f6ca9c0ab = $(`<div id="html_d0396c19a40808767abcc15f6ca9c0ab" style="width: 100.0%; height: 100.0%;">     <b>Jaipur, India</b><br>     Risk: High<br>     Sustainability:     41.2<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_9b4d9554c55de683921259ec0d5196d8.setContent(html_d0396c19a40808767abcc15f6ca9c0ab);
+            
+        
+
+        circle_marker_00543cb3a866d12e4217bb40e009a19c.bindPopup(popup_9b4d9554c55de683921259ec0d5196d8)
+        ;
+
+        
+    
+    
+            var circle_marker_62f79b4f9ca7cfa0075c69d70ba23a6f = L.circleMarker(
+                [26.8381, 80.9346001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_4139657171b6119b0357df2e2c3fb3af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1db6d46c55bcf94409714805075158b = $(`<div id="html_a1db6d46c55bcf94409714805075158b" style="width: 100.0%; height: 100.0%;">     <b>Lucknow, India</b><br>     Risk: High<br>     Sustainability:     43.2<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_4139657171b6119b0357df2e2c3fb3af.setContent(html_a1db6d46c55bcf94409714805075158b);
+            
+        
+
+        circle_marker_62f79b4f9ca7cfa0075c69d70ba23a6f.bindPopup(popup_4139657171b6119b0357df2e2c3fb3af)
+        ;
+
+        
+    
+    
+            var circle_marker_93c61ecfc2bb8a712b9259772e9e6a25 = L.circleMarker(
+                [21.1498134, 79.0820556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_722096b44673db646a5f7ee2ac54ac87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e901cf6f7ad98c3447c896b53a406fa = $(`<div id="html_1e901cf6f7ad98c3447c896b53a406fa" style="width: 100.0%; height: 100.0%;">     <b>Nagpur, India</b><br>     Risk: High<br>     Sustainability:     50.2<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_722096b44673db646a5f7ee2ac54ac87.setContent(html_1e901cf6f7ad98c3447c896b53a406fa);
+            
+        
+
+        circle_marker_93c61ecfc2bb8a712b9259772e9e6a25.bindPopup(popup_722096b44673db646a5f7ee2ac54ac87)
+        ;
+
+        
+    
+    
+            var circle_marker_c370d41555ee06cb75a181ffb715f5af = L.circleMarker(
+                [22.7203616, 75.8681996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_d26fe847066e6fdbf531f140d9070d4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e26c6fde7d7f21591466f67de8e16d1d = $(`<div id="html_e26c6fde7d7f21591466f67de8e16d1d" style="width: 100.0%; height: 100.0%;">     <b>Indore, India</b><br>     Risk: High<br>     Sustainability:     48.9<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_d26fe847066e6fdbf531f140d9070d4c.setContent(html_e26c6fde7d7f21591466f67de8e16d1d);
+            
+        
+
+        circle_marker_c370d41555ee06cb75a181ffb715f5af.bindPopup(popup_d26fe847066e6fdbf531f140d9070d4c)
+        ;
+
+        
+    
+    
+            var circle_marker_96a37f7e126ffa2d87decca57d20b4ae = L.circleMarker(
+                [33.4484367, -112.074141],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_24bdaeb72371052c98620c8c38be9a7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8e1853b392831148fc97274da1de1d1 = $(`<div id="html_c8e1853b392831148fc97274da1de1d1" style="width: 100.0%; height: 100.0%;">     <b>Phoenix, USA</b><br>     Risk: High<br>     Sustainability:     23.0<br>     Data Centers:     70<br>     MW Capacity:     350     </div>`)[0];
+                popup_24bdaeb72371052c98620c8c38be9a7e.setContent(html_c8e1853b392831148fc97274da1de1d1);
+            
+        
+
+        circle_marker_96a37f7e126ffa2d87decca57d20b4ae.bindPopup(popup_24bdaeb72371052c98620c8c38be9a7e)
+        ;
+
+        
+    
+    
+            var circle_marker_a43a0e1bcec13469830e0c1e578b9c81 = L.circleMarker(
+                [32.7762719, -96.7968559],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_e2aed72e78f54bb1813d4c2ffcf38f3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a8d6d0a375e8d1c655b72656b48db35 = $(`<div id="html_0a8d6d0a375e8d1c655b72656b48db35" style="width: 100.0%; height: 100.0%;">     <b>Dallas, USA</b><br>     Risk: Medium<br>     Sustainability:     29.3<br>     Data Centers:     70<br>     MW Capacity:     350     </div>`)[0];
+                popup_e2aed72e78f54bb1813d4c2ffcf38f3c.setContent(html_0a8d6d0a375e8d1c655b72656b48db35);
+            
+        
+
+        circle_marker_a43a0e1bcec13469830e0c1e578b9c81.bindPopup(popup_e2aed72e78f54bb1813d4c2ffcf38f3c)
+        ;
+
+        
+    
+    
+            var circle_marker_7e7c163fac9d573968e70fe2263c8232 = L.circleMarker(
+                [30.2711286, -97.7436995],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_4abb5594c6a547545926fd083e8f69f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1da52676517e8cdc6ad6c0e7d84ca83 = $(`<div id="html_f1da52676517e8cdc6ad6c0e7d84ca83" style="width: 100.0%; height: 100.0%;">     <b>Austin, USA</b><br>     Risk: Medium<br>     Sustainability:     38.4<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_4abb5594c6a547545926fd083e8f69f7.setContent(html_f1da52676517e8cdc6ad6c0e7d84ca83);
+            
+        
+
+        circle_marker_7e7c163fac9d573968e70fe2263c8232.bindPopup(popup_4abb5594c6a547545926fd083e8f69f7)
+        ;
+
+        
+    
+    
+            var circle_marker_850786986385d16e2fe12244933e46ad = L.circleMarker(
+                [47.6038321, -122.330062],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_ed28509548e651c9178980de499b4c0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e26a852bfa5a811a56328c4724c8e45 = $(`<div id="html_1e26a852bfa5a811a56328c4724c8e45" style="width: 100.0%; height: 100.0%;">     <b>Seattle, USA</b><br>     Risk: Low<br>     Sustainability:     70.0<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_ed28509548e651c9178980de499b4c0c.setContent(html_1e26a852bfa5a811a56328c4724c8e45);
+            
+        
+
+        circle_marker_850786986385d16e2fe12244933e46ad.bindPopup(popup_ed28509548e651c9178980de499b4c0c)
+        ;
+
+        
+    
+    
+            var circle_marker_dcaef3a5ee2c82a91a87ab917407cb7d = L.circleMarker(
+                [41.8755616, -87.6244212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_9103f4caea8dc25fec7f0332befb2cd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_681ffb9200923f4c4e402858b1cb60d2 = $(`<div id="html_681ffb9200923f4c4e402858b1cb60d2" style="width: 100.0%; height: 100.0%;">     <b>Chicago, USA</b><br>     Risk: Low<br>     Sustainability:     62.6<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_9103f4caea8dc25fec7f0332befb2cd5.setContent(html_681ffb9200923f4c4e402858b1cb60d2);
+            
+        
+
+        circle_marker_dcaef3a5ee2c82a91a87ab917407cb7d.bindPopup(popup_9103f4caea8dc25fec7f0332befb2cd5)
+        ;
+
+        
+    
+    
+            var circle_marker_ff6dfa326c7a08c878c9c6fc093d964e = L.circleMarker(
+                [33.7544657, -84.3898151],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_4d00f62f5c5beca2dcd9738b9c805fe6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f026c74f8e8e751c2822f84e07f1b21 = $(`<div id="html_9f026c74f8e8e751c2822f84e07f1b21" style="width: 100.0%; height: 100.0%;">     <b>Atlanta, USA</b><br>     Risk: Low<br>     Sustainability:     64.5<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_4d00f62f5c5beca2dcd9738b9c805fe6.setContent(html_9f026c74f8e8e751c2822f84e07f1b21);
+            
+        
+
+        circle_marker_ff6dfa326c7a08c878c9c6fc093d964e.bindPopup(popup_4d00f62f5c5beca2dcd9738b9c805fe6)
+        ;
+
+        
+    
+    
+            var circle_marker_355d3de10d95073fa0c372c75ab3767f = L.circleMarker(
+                [36.8496579, -75.9760751],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_61a7b3df47639ca078884efdde3ebb7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b0518d0f4d853fe6c1553e40c334d0b = $(`<div id="html_9b0518d0f4d853fe6c1553e40c334d0b" style="width: 100.0%; height: 100.0%;">     <b>Virginia Beach, USA</b><br>     Risk: Low<br>     Sustainability:     62.1<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_61a7b3df47639ca078884efdde3ebb7c.setContent(html_9b0518d0f4d853fe6c1553e40c334d0b);
+            
+        
+
+        circle_marker_355d3de10d95073fa0c372c75ab3767f.bindPopup(popup_61a7b3df47639ca078884efdde3ebb7c)
+        ;
+
+        
+    
+    
+            var circle_marker_eab939804fff04165d1351582e627e0d = L.circleMarker(
+                [37.3361663, -121.890591],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_1cff69080085793508e726c482ce4158 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b35b0e64cf788e038baa8c7ab282a8cc = $(`<div id="html_b35b0e64cf788e038baa8c7ab282a8cc" style="width: 100.0%; height: 100.0%;">     <b>San Jose, USA</b><br>     Risk: Medium<br>     Sustainability:     55.8<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_1cff69080085793508e726c482ce4158.setContent(html_b35b0e64cf788e038baa8c7ab282a8cc);
+            
+        
+
+        circle_marker_eab939804fff04165d1351582e627e0d.bindPopup(popup_1cff69080085793508e726c482ce4158)
+        ;
+
+        
+    
+    
+            var circle_marker_dc7e33ef41bc684432db19fa0adbfe9f = L.circleMarker(
+                [34.0536909, -118.242766],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_422c1e6d6403af5126b26e0c109eca44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddba3fffa252499bec28db160dc57e23 = $(`<div id="html_ddba3fffa252499bec28db160dc57e23" style="width: 100.0%; height: 100.0%;">     <b>Los Angeles, USA</b><br>     Risk: Medium<br>     Sustainability:     43.0<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_422c1e6d6403af5126b26e0c109eca44.setContent(html_ddba3fffa252499bec28db160dc57e23);
+            
+        
+
+        circle_marker_dc7e33ef41bc684432db19fa0adbfe9f.bindPopup(popup_422c1e6d6403af5126b26e0c109eca44)
+        ;
+
+        
+    
+    
+            var circle_marker_00e20cee5e90cf3112d25d90ba735483 = L.circleMarker(
+                [39.7392364, -104.984862],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_0ff021e05dd4f2999993e78ae5a4594b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e252a70d4e115f72884bdfdf5a7b7ae3 = $(`<div id="html_e252a70d4e115f72884bdfdf5a7b7ae3" style="width: 100.0%; height: 100.0%;">     <b>Denver, USA</b><br>     Risk: Medium<br>     Sustainability:     70.3<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_0ff021e05dd4f2999993e78ae5a4594b.setContent(html_e252a70d4e115f72884bdfdf5a7b7ae3);
+            
+        
+
+        circle_marker_00e20cee5e90cf3112d25d90ba735483.bindPopup(popup_0ff021e05dd4f2999993e78ae5a4594b)
+        ;
+
+        
+    
+    
+            var circle_marker_bd004f9573dff2107ff89730fbf76713 = L.circleMarker(
+                [25.7741566, -80.1935973],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_59f9764872110e3dd41118cc4c5c24b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_128aea1c4ba5e31c267b74cc90d32003 = $(`<div id="html_128aea1c4ba5e31c267b74cc90d32003" style="width: 100.0%; height: 100.0%;">     <b>Miami, USA</b><br>     Risk: Low<br>     Sustainability:     47.5<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_59f9764872110e3dd41118cc4c5c24b7.setContent(html_128aea1c4ba5e31c267b74cc90d32003);
+            
+        
+
+        circle_marker_bd004f9573dff2107ff89730fbf76713.bindPopup(popup_59f9764872110e3dd41118cc4c5c24b7)
+        ;
+
+        
+    
+    
+            var circle_marker_37d6e7e8a71fbf9205f26957941317a3 = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_19d68acd0159d46ee504ce8dddec12ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad1e590ba1a3de5cd840434297cf6322 = $(`<div id="html_ad1e590ba1a3de5cd840434297cf6322" style="width: 100.0%; height: 100.0%;">     <b>New York, USA</b><br>     Risk: Low<br>     Sustainability:     63.4<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_19d68acd0159d46ee504ce8dddec12ea.setContent(html_ad1e590ba1a3de5cd840434297cf6322);
+            
+        
+
+        circle_marker_37d6e7e8a71fbf9205f26957941317a3.bindPopup(popup_19d68acd0159d46ee504ce8dddec12ea)
+        ;
+
+        
+    
+    
+            var circle_marker_bb977ecbadada217c3facbd76a672d24 = L.circleMarker(
+                [42.3588336, -71.0578303],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_b329689c6b376e7c2b7a6b27683a05a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3286884fed6ca5b17a0d8f20d31e7da = $(`<div id="html_d3286884fed6ca5b17a0d8f20d31e7da" style="width: 100.0%; height: 100.0%;">     <b>Boston, USA</b><br>     Risk: Low<br>     Sustainability:     69.8<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_b329689c6b376e7c2b7a6b27683a05a8.setContent(html_d3286884fed6ca5b17a0d8f20d31e7da);
+            
+        
+
+        circle_marker_bb977ecbadada217c3facbd76a672d24.bindPopup(popup_b329689c6b376e7c2b7a6b27683a05a8)
+        ;
+
+        
+    
+    
+            var circle_marker_210d27336b85641f266e13a3c68701d3 = L.circleMarker(
+                [45.5202471, -122.674194],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_d6a957bc41b0c52581b76101a220d97a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a5750595844b6487ff21f4f3f97627b = $(`<div id="html_3a5750595844b6487ff21f4f3f97627b" style="width: 100.0%; height: 100.0%;">     <b>Portland, USA</b><br>     Risk: Low<br>     Sustainability:     69.3<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_d6a957bc41b0c52581b76101a220d97a.setContent(html_3a5750595844b6487ff21f4f3f97627b);
+            
+        
+
+        circle_marker_210d27336b85641f266e13a3c68701d3.bindPopup(popup_d6a957bc41b0c52581b76101a220d97a)
+        ;
+
+        
+    
+    
+            var circle_marker_32b0e4597950c55433c52d07e9aa05b4 = L.circleMarker(
+                [29.7589382, -95.3676974],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_a338e8b15e9e92d185de6bb5b6830434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf874cffedd6b02959cff21252f36db2 = $(`<div id="html_bf874cffedd6b02959cff21252f36db2" style="width: 100.0%; height: 100.0%;">     <b>Houston, USA</b><br>     Risk: Medium<br>     Sustainability:     37.9<br>     Data Centers:     40<br>     MW Capacity:     200     </div>`)[0];
+                popup_a338e8b15e9e92d185de6bb5b6830434.setContent(html_bf874cffedd6b02959cff21252f36db2);
+            
+        
+
+        circle_marker_32b0e4597950c55433c52d07e9aa05b4.bindPopup(popup_a338e8b15e9e92d185de6bb5b6830434)
+        ;
+
+        
+    
+    
+            var circle_marker_de42abb3810db6de65bea2c293f1f3a1 = L.circleMarker(
+                [36.1674263, -115.1484131],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_13fae8a0905d54c08b780182e011c588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0b631f4666d9fa6af9afb261495daf0 = $(`<div id="html_c0b631f4666d9fa6af9afb261495daf0" style="width: 100.0%; height: 100.0%;">     <b>Las Vegas, USA</b><br>     Risk: High<br>     Sustainability:     48.2<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_13fae8a0905d54c08b780182e011c588.setContent(html_c0b631f4666d9fa6af9afb261495daf0);
+            
+        
+
+        circle_marker_de42abb3810db6de65bea2c293f1f3a1.bindPopup(popup_13fae8a0905d54c08b780182e011c588)
+        ;
+
+        
+    
+    
+            var circle_marker_293a63325f89065321248c5bc7937485 = L.circleMarker(
+                [40.7596198, -111.886797],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_13e209f720b6b19a989deae026ca5386 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e4b60f4c4949b8a3964156665b6eb62 = $(`<div id="html_2e4b60f4c4949b8a3964156665b6eb62" style="width: 100.0%; height: 100.0%;">     <b>Salt Lake City, USA</b><br>     Risk: Medium<br>     Sustainability:     69.6<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_13e209f720b6b19a989deae026ca5386.setContent(html_2e4b60f4c4949b8a3964156665b6eb62);
+            
+        
+
+        circle_marker_293a63325f89065321248c5bc7937485.bindPopup(popup_13e209f720b6b19a989deae026ca5386)
+        ;
+
+        
+    
+    
+            var circle_marker_662254d96074b5837aea4ba610973e72 = L.circleMarker(
+                [44.9772995, -93.2654692],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_d8ac1e7ac8e24a8d7276a868e257892d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ba34bbcfab806bf84f235e23acd75c4 = $(`<div id="html_9ba34bbcfab806bf84f235e23acd75c4" style="width: 100.0%; height: 100.0%;">     <b>Minneapolis, USA</b><br>     Risk: Low<br>     Sustainability:     75.5<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_d8ac1e7ac8e24a8d7276a868e257892d.setContent(html_9ba34bbcfab806bf84f235e23acd75c4);
+            
+        
+
+        circle_marker_662254d96074b5837aea4ba610973e72.bindPopup(popup_d8ac1e7ac8e24a8d7276a868e257892d)
+        ;
+
+        
+    
+    
+            var circle_marker_46b486abac7a457edd19a217910dff5c = L.circleMarker(
+                [42.3315509, -83.0466403],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_6273da7c49712e06a6d0d09a8a5ff06d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fb5693415f3bb721e07abc722483ba3 = $(`<div id="html_1fb5693415f3bb721e07abc722483ba3" style="width: 100.0%; height: 100.0%;">     <b>Detroit, USA</b><br>     Risk: Low<br>     Sustainability:     72.8<br>     Data Centers:     15<br>     MW Capacity:     80     </div>`)[0];
+                popup_6273da7c49712e06a6d0d09a8a5ff06d.setContent(html_1fb5693415f3bb721e07abc722483ba3);
+            
+        
+
+        circle_marker_46b486abac7a457edd19a217910dff5c.bindPopup(popup_6273da7c49712e06a6d0d09a8a5ff06d)
+        ;
+
+        
+    
+    
+            var circle_marker_39a371db462788d40c53f5991f90bde9 = L.circleMarker(
+                [53.3493795, -6.2605593],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_5f0dc5b65274133ad9e9e56bfb5d8214 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a60e55299498e0756748f65629162c3 = $(`<div id="html_6a60e55299498e0756748f65629162c3" style="width: 100.0%; height: 100.0%;">     <b>Dublin, Ireland</b><br>     Risk: Low<br>     Sustainability:     52.7<br>     Data Centers:     70<br>     MW Capacity:     350     </div>`)[0];
+                popup_5f0dc5b65274133ad9e9e56bfb5d8214.setContent(html_6a60e55299498e0756748f65629162c3);
+            
+        
+
+        circle_marker_39a371db462788d40c53f5991f90bde9.bindPopup(popup_5f0dc5b65274133ad9e9e56bfb5d8214)
+        ;
+
+        
+    
+    
+            var circle_marker_7eefb175ae765fece551c88a37fe5cd3 = L.circleMarker(
+                [52.3730796, 4.8924534],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_1bf5804a2e69ccf9f325612aeff2d1af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78de1ac580816bb0923a9c78fc013907 = $(`<div id="html_78de1ac580816bb0923a9c78fc013907" style="width: 100.0%; height: 100.0%;">     <b>Amsterdam, Netherlands</b><br>     Risk: Low<br>     Sustainability:     55.2<br>     Data Centers:     70<br>     MW Capacity:     350     </div>`)[0];
+                popup_1bf5804a2e69ccf9f325612aeff2d1af.setContent(html_78de1ac580816bb0923a9c78fc013907);
+            
+        
+
+        circle_marker_7eefb175ae765fece551c88a37fe5cd3.bindPopup(popup_1bf5804a2e69ccf9f325612aeff2d1af)
+        ;
+
+        
+    
+    
+            var circle_marker_b7e07fb545138085ce74c014dcf84ab2 = L.circleMarker(
+                [1.357107, 103.8194992],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_01e5ee3aa9a6287ca4bcff05dd6abdb3);
+        
+    
+        var popup_f23aac6f18df33cdeed4833d2c4f9162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94d73b15ebd66d0db3df2c01ab5adbf2 = $(`<div id="html_94d73b15ebd66d0db3df2c01ab5adbf2" style="width: 100.0%; height: 100.0%;">     <b>Singapore</b><br>     Risk: Low<br>     Sustainability:     38.0<br>     Data Centers:     70<br>     MW Capacity:     350     </div>`)[0];
+                popup_f23aac6f18df33cdeed4833d2c4f9162.setContent(html_94d73b15ebd66d0db3df2c01ab5adbf2);
+            
+        
+
+        circle_marker_b7e07fb545138085ce74c014dcf84ab2.bindPopup(popup_f23aac6f18df33cdeed4833d2c4f9162)
+        ;
+
+        
+    
+</script>
+</html>

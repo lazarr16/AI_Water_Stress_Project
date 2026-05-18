@@ -1,0 +1,84 @@
+city,state_region,country
+"Mumbai, India",Maharashtra,India
+"Pune, India",Maharashtra,India
+"Bengaluru, India",Karnataka,India
+"Hyderabad, India",Telangana,India
+"Chennai, India",Tamil Nadu,India
+"Delhi, India",,India
+"Noida, India",Uttar Pradesh,India
+"Ahmedabad, India",Gujarat,India
+"Kolkata, India",West Bengal,India
+"Kochi, India",Kerala,India
+"Visakhapatnam, India",Andhra Pradesh,India
+"Jaipur, India",Rajasthan,India
+"Lucknow, India",Uttar Pradesh,India
+"Nagpur, India",Maharashtra,India
+"Indore, India",Madhya Pradesh,India
+"Phoenix, USA",Arizona,United States
+"Dallas, USA",Texas,United States
+"Austin, USA",Texas,United States
+"Seattle, USA",Washington,United States
+"Chicago, USA",Illinois,United States
+"Atlanta, USA",Georgia,United States
+"Virginia Beach, USA",Virginia,United States
+"San Jose, USA",California,United States
+"Los Angeles, USA",California,United States
+"Denver, USA",Colorado,United States
+"Miami, USA",Florida,United States
+"New York, USA",New York,United States
+"Boston, USA",Massachusetts,United States
+"Portland, USA",Oregon,United States
+"Houston, USA",Texas,United States
+"Las Vegas, USA",Nevada,United States
+"Salt Lake City, USA",Utah,United States
+"Minneapolis, USA",Minnesota,United States
+"Detroit, USA",Michigan,United States
+"Dublin, Ireland",Leinster,Éire / Ireland
+"Amsterdam, Netherlands",Noord-Holland,Nederland
+"Frankfurt, Germany",Hessen,Deutschland
+"London, United Kingdom",England,United Kingdom
+"Paris, France",Île-de-France,France
+"Madrid, Spain",Comunidad de Madrid,España
+"Berlin, Germany",,Deutschland
+"Stockholm, Sweden",Stockholms län,Sverige
+"Zurich, Switzerland",Zürich,Schweiz/Suisse/Svizzera/Svizra
+"Warsaw, Poland",województwo mazowieckie,Polska
+"Milan, Italy",Lombardia,Italia
+"Copenhagen, Denmark",Region Hovedstaden,Danmark
+"Vienna, Austria",,Österreich
+"Oslo, Norway",,Norge
+"Brussels, Belgium",Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest,België / Belgique / Belgien
+"Lisbon, Portugal",Lisboa,Portugal
+"Manchester, United Kingdom",England,United Kingdom
+"Prague, Czech Republic",Praha,Česko
+"Budapest, Hungary",Budapest,Magyarország
+"Helsinki, Finland",Uusimaa,Suomi / Finland
+Singapore,,Singapore
+"Tokyo, Japan",,日本
+"Seoul, South Korea",,대한민국
+Hong Kong,香港 Hong Kong,中国
+"Taipei, Taiwan",,臺灣
+"Jakarta, Indonesia",Jawa,Indonesia
+"Bangkok, Thailand",,ประเทศไทย
+"Sydney, Australia",New South Wales,Australia
+"Melbourne, Australia",Victoria,Australia
+"Kuala Lumpur, Malaysia",,Malaysia
+"Osaka, Japan",,日本
+"Shanghai, China",上海市,中国
+"Beijing, China",,中国
+"Shenzhen, China",广东省,中国
+"Manila, Philippines",Metro Manila,Philippines
+"Auckland, New Zealand",Auckland,New Zealand / Aotearoa
+"Perth, Australia",Western Australia,Australia
+"Brisbane, Australia",Queensland,Australia
+"Ho Chi Minh City, Vietnam",,Việt Nam
+"Dubai, UAE",دبي,الإمارات العربية المتحدة
+"Abu Dhabi, UAE",أبو ظبي,الإمارات العربية المتحدة
+"Riyadh, Saudi Arabia",منطقة الرياض,السعودية
+"Doha, Qatar",الدوحة,قطر
+"Johannesburg, South Africa",Gauteng,South Africa
+"Cape Town, South Africa",Western Cape,South Africa
+"Nairobi, Kenya",Nairobi,Kenya
+"Tel Aviv, Israel",מחוז תל אביב,ישראל
+"Istanbul, Turkey",Marmara Bölgesi,Türkiye
+"Cairo, Egypt",القاهرة,مصر

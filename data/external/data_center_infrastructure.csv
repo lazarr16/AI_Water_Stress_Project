@@ -1,0 +1,11 @@
+city,data_center_count,hyperscaler_presence,compute_growth_score,estimated_mw_capacity
+Mumbai,45,1,High,250
+Pune,12,0,Medium,80
+Bengaluru,40,1,High,220
+Hyderabad,35,1,High,200
+Chennai,30,1,High,180
+Phoenix,70,1,Very High,400
+Dallas,80,1,Very High,450
+Singapore,60,1,Very High,350
+Dublin,55,1,Very High,300
+Amsterdam,50,1,Very High,280
