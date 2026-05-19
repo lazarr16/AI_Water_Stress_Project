@@ -1,5 +1,9 @@
 # Climate Intelligence for Sustainable AI Infrastructure
-
+[![Python Version](https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen?style=flat-square)](https://scikit-learn.org/)
+[![Deployment](https://img.shields.io/badge/Deployment-Streamlit-red?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Domain](https://img.shields.io/badge/Domain-Sustainability-orange?style=flat-square)](https://github.com/lazarr16/AI_Water_Stress_Project)
+[![Geospatial](https://img.shields.io/badge/Geospatial-Folium-purple?style=flat-square)](https://python-visualization.github.io/folium/)
 A machine learning and sustainability analytics system designed to predict the impact of AI data center expansion on regional water stress.
 
 ---
